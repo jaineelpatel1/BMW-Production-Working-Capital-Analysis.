@@ -39,9 +39,12 @@ The periods are not identical for every metric: production, deliveries, working 
 
 ## Files
 
-- **Research report (PDF):** research question, methods, network analysis, figures, financial cross-check, limitations and references.
-- **Excel workbook:** plant and model networks, transition timeline, battery nodes, financial analysis, source register and definitions.
-- **CSV dataset:** header-first structured records used for the production-network analysis. It is not a full export of every workbook calculation.
+- **[Research report (PDF)](BMW_Production_Working_Capital_Analysis.pdf):** research question, methods, network analysis, figures, financial cross-check, limitations and references.
+- **[Excel workbook](BMW_Production_Working_Capital_Analysis.xlsx):** plant and model networks, transition timeline, battery nodes, financial analysis, source register and definitions.
+- **[CSV dataset](BMW_Production_Working_Capital_Data.csv):** header-first structured records used for the production-network analysis. It is not a full export of every workbook calculation.
+- **[Rights and attribution](RIGHTS-AND-ATTRIBUTION.md):** independence statement and third-party material notice.
+
+The CSV contains plant-level records for 16 site groups. Goodwood and Debrecen are included as context records but are excluded from the 14-site comparable model matrix. The 27 model-line summaries and 63 model-site links refer to that comparable matrix.
 
 ## Limitations
 
@@ -65,5 +68,4 @@ Microsoft Excel was used for data preparation, calculations, model construction 
 
 ---
 
-**Publication date stated in the supplied report:** 28 August 2026.  
-**Evidence cut-off:** 10 August 2026.
+**Date note:** The supplied PDF states a publication date of 28 August 2026. This repository was uploaded on 12 October 2026. The evidence cut-off remains 10 August 2026. If 28 August was not the project's original public release date, the date in the report should be corrected in a future revision.
