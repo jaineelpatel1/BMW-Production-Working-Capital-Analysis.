@@ -1,76 +1,69 @@
-# BMW Production Working-Capital Analysis.
-An independent study of BMW Group’s production network, model concentration and working capital, using published company data and an Excel analysis model.
+# BMW Production Network & Working Capital Analysis
 
-BMW Production Network and Working Capital Analysis
+**Independent industry research by Jaineel Patel**  
+**Research completed:** 10 August 2026  
+**Evidence cut-off:** 10 August 2026  
+**Baseline:** BMW Group 2025 production programme
 
-Independent Research | Evidence Cut Off: 10 August 2026
+## Overview
 
-Research Overview
+This project examines how BMW Group's passenger-vehicle production network is organised as the Neue Klasse transition progresses. It reconstructs a plant-to-model network from published production-programme data, assesses model-site concentration, considers drivetrain breadth and battery localisation, and places those findings alongside selected Automotive financial indicators.
 
-This project examines how BMW Group organises its passenger vehicle production network and considers how production output relates to selected financial indicators. It combines information from published BMW Group disclosures with an Excel model developed to examine production site allocation, model concentration and working capital.
+The analysis treats the financial figures as a downstream operating signal. It does not claim that the Neue Klasse transition caused the working-capital or cash-flow movements reported for the first half of 2026.
 
-The objective is to understand how the distribution of vehicle models across production sites shapes operational dependencies, and to place these findings alongside the financial signals reported for the first half of 2026.
+## Scope and principal results
 
-Scope of the Analysis
+- **14 comparable production sites** in the plant-model matrix.
+- **27 named model lines** included in the model count.
+- **63 model-site links** recorded from the published production programme.
+- **12 single-site model lines**, equal to **44.4%** of the model lines in the comparable matrix.
+- A drivetrain-breadth indicator based on published ICE, BEV and PHEV categories.
+- A transition timeline and a separate view of the five Gen6 battery assembly locations identified in the source set.
+- A financial cross-check comparing H1 2025 and H1 2026 production, deliveries, inventory, working capital and Automotive free cash flow.
 
-The production network model covers 14 comparable passenger vehicle production sites, 27 model lines and 63 model site links.
+The counts describe the published model allocation used in this study. They are not measures of plant capacity, utilisation, actual model-level output or the probability or cost of a disruption.
 
-The analysis examines four main areas.
+## Method
 
-Production network structure
+The quantitative baseline is BMW Group's 2025 passenger-vehicle production programme. A model-site link is counted when a named model line is listed at a comparable site in that programme. One listed site is classified as a single-site line; two or more listed sites are classified as multi-site.
 
-The model maps vehicle model lines to their reported production sites and identifies where production is concentrated at a single location.
+Goodwood is excluded from the comparable matrix because it is a Rolls-Royce production site. Debrecen is handled in the transition analysis rather than forced into the 2025 comparable matrix, because the selected BMW sources present different model snapshots. The non-specific “BMW M” category is excluded from the named model-line count. Zhangjiagang (Spotlight) is included as a jointly controlled MINI production site and kept distinct from BMW-owned plant counts.
 
-Model concentration and site dependency
+The drivetrain-breadth measure is a public-data proxy for the presence of multiple drivetrain categories, not proof that production can be switched between them without constraints. The financial analysis distinguishes BMW-reported figures from project calculations and does not infer causation from coincident movements.
 
-The analysis identifies 12 model lines associated with a single production site, representing 44.4% of the 27 model lines included in the model. This indicates where the publicly documented production network has limited site coverage for an individual model. It does not, by itself, establish the financial impact or probability of a disruption.
+## Financial cross-check
 
-Drivetrain breadth and battery localisation
+BMW-reported H1 2026 Automotive production was **1,267,511 vehicles** and deliveries were **1,156,727 vehicles**. The resulting production-minus-deliveries gap is **110,784 vehicles**, calculated for this project. BMW also reported Automotive inventory of **€22.171 billion** at 30 June 2026, compared with **€19.370 billion** at 31 December 2025, and a **€1.858 billion negative change in working capital**.
 
-The project examines the drivetrain options documented for selected models and the location of relevant battery production activities. These indicators provide context for BMW’s production transition. They do not establish that production can be transferred between sites without technical, commercial or operational constraints.
+The periods are not identical for every metric: production, deliveries, working capital and free cash flow compare H1 2026 with H1 2025, while the inventory comparison is between 30 June 2026 and 31 December 2025. See the report for the full reconciliation and qualifications.
 
-Production and working capital
+## Files
 
-The financial analysis compares Automotive production with deliveries for the first half of 2025 and the first half of 2026. In the first half of 2026, production exceeded deliveries by 110,784 vehicles. This difference is considered alongside BMW Group’s reported working capital movement and other published financial indicators. It is not treated as proof that a particular production programme caused the reported financial outcome.
+- **Research report (PDF):** research question, methods, network analysis, figures, financial cross-check, limitations and references.
+- **Excel workbook:** plant and model networks, transition timeline, battery nodes, financial analysis, source register and definitions.
+- **CSV dataset:** header-first structured records used for the production-network analysis. It is not a full export of every workbook calculation.
 
-Methodology
+## Limitations
 
-The analysis uses publicly available BMW Group disclosures as its primary source of information. Production site and model allocations were organised into a structured dataset and connected to the Excel model.
+BMW's public disclosures do not provide comparable current capacity and utilisation figures for every selected site or consistent model-level production volumes by site. This project therefore does not estimate production-at-risk, lost revenue, disruption probabilities, inventory buffers or plant-level financial exposure. Public evidence also does not resolve every plant allocation in Shenyang.
 
-The workbook contains the underlying records, source references, calculations and analytical outputs. The model was used to assess site coverage, single site dependency, drivetrain breadth and selected financial movements.
+The production and delivery gap is an operating observation, not evidence that a particular plant, model or transition programme caused the financial result.
 
-Where published information differed in scope or level of detail, the analysis considered the available source evidence rather than assuming that all figures were directly comparable. The report documents the principal assumptions and limitations.
+## Sources and attribution
 
-Main Findings
+The report and workbook contain source references for the underlying BMW Group disclosures and other cited material. Reported facts, project calculations and analytical classifications are distinguished in the analysis.
 
-The model identifies meaningful differences in how vehicle lines are distributed across production sites. The 12 single site model lines provide a measure of model level site concentration, while the drivetrain and battery analysis adds context to the production transition.
+## Independence and rights
 
-The comparison of production and deliveries also shows a larger gap in the first half of 2026 than in the first half of 2025. This is an operating signal that warrants consideration alongside the published financial information. Production and delivery volumes alone are not sufficient to establish the cause of a working capital movement.
+This is independent research. It was not commissioned, sponsored, endorsed or approved by BMW Group. BMW, MINI, Neue Klasse and related model names are used only to identify the subject of analysis; no affiliation or endorsement is implied. The project does not include confidential or proprietary BMW information.
 
-Project Files
+Project calculations, classifications and charts are the author's work. Third-party sources remain subject to their respective rights. See [Rights and Attribution](RIGHTS-AND-ATTRIBUTION.md) for further information.
 
-Report: Findings, methodology, financial analysis, references and limitations.
+## Use of tools
 
-Excel workbook: Production network mapping, calculations, financial comparisons and source register.
+Microsoft Excel was used for data preparation, calculations, model construction and visual analysis. Generative AI tools were used for limited research organisation, language editing and formatting. Source verification, dataset construction, calculations and final analytical conclusions were reviewed by the author.
 
-CSV dataset: Structured records used in the production network analysis.
+---
 
-README: Summary of the project scope, method and principal conclusions.
-
-Sources
-
-The analysis is based primarily on BMW Group annual, production and financial disclosures, supplemented by other cited sources where relevant. Full references and source details are provided in the report and workbook.
-
-The evidence cut off for this version is 10 August 2026.
-
-Limitations
-
-The analysis is constrained by the level of detail available in public disclosures. Comparable plant capacity and utilisation figures are not available for all sites, and model level production volumes by site are not available across the network.
-
-Consequently, the project does not estimate production at risk, disruption probabilities or the financial cost of a plant interruption. The drivetrain breadth indicator is a measure based on documented options, not a direct measure of production switching capability. The financial analysis identifies movements and relationships that can be observed in published data, but does not establish causation.
-
-Independence and Attribution
-
-This is independent research. It was not commissioned, sponsored or approved by BMW Group. BMW and the referenced vehicle names are used to identify the subject of analysis and do not imply an affiliation or endorsement.
-
-The project’s analytical charts, calculations and classifications were prepared by the author. BMW Group publications and other third party sources remain subject to the rights of their respective owners.
+**Publication date stated in the supplied report:** 28 August 2026.  
+**Evidence cut-off:** 10 August 2026.
